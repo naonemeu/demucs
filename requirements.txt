@@ -1,4 +1,7 @@
 # please make sure you have already a pytorch install that is cuda enabled!
+#
+# Edits: Locked all requirements to the latest version from 2024, and added "TorchCodec"
+# Which apparently is no longer installed alongside any of packages as of 2025-11-22
 dora-search==0.1.12
 diffq==0.2.1
 einops==0.7.0
@@ -17,4 +20,4 @@ torchaudio==2.7.1
 tqdm==4.66.4
 treetable
 soundfile==0.12.1
-TorchCodec==0.8.1
+TorchCodec==0.8.1 #Added
