@@ -20,4 +20,4 @@ torchaudio==2.7.1
 tqdm==4.66.4
 treetable
 soundfile==0.12.1
-TorchCodec==0.8.1 #Added
+TorchCodec==0.8.1
