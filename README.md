@@ -1,10 +1,13 @@
 Personal fork for requirements.txt edits and use with the online demucs google colab.
 
 ### Extra instructions 
-Place a code line to install torchaudio, right after installing demucs
+In your google colab docs, replace the isntall link with this one.
+
+After installing demucs, but before running it, place a code block to install torchcodec.
 
 ```!pip install tochcodec```
 
+### Remaining Issues
 Currently throws a warning, but it mostly works still. (16/24 bit option being ignored?)
 
 ```
@@ -16,5 +19,5 @@ return save_with_torchcodec(
 UserWarning: The 'bits_per_sample' parameter is not directly supported by TorchCodec AudioEncoder.
 return save_with_torchcodec(
 ```
-
+### README
 Refer to the original repository for the README: https://github.com/adefossez/demucs
